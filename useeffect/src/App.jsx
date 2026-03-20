@@ -1,10 +1,12 @@
 import React from 'react'
-import ApiFetch from './components/ApiFetch'
+import UseEffect from './components/Useeffect'
+// import ApiFetch from './components/ApiFetch'
 
 const App = () => {
   return (
     <>
-    <ApiFetch/>
+    {/* <ApiFetch/> */}
+    <UseEffect/>
     </>
   )
 }

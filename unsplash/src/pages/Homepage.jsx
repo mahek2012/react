@@ -1,12 +1,26 @@
-import React from 'react'
-import Navbar from '../Layout/Navbar'
+import Herosection from "../components/Herosection";
+import NavBar from "../Layout/NavBar";
+import Sidebar from "../Layout/Sidebar";
 
-const Homepage = () => {
+
+const HomePage = () => {
   return (
     <>
-    <Navbar/>
-    </>
-  )
-}
+      <section className="w-full h-screen flex">
+        <div className="w-16 h-screen border-r border-r-gray-300">
+          <Sidebar />
+        </div>
 
-export default Homepage
+        <div className="w-full h-screen py-2">
+          <NavBar />
+
+          <section className="w-[60%] flex items-center justify-center mt-50 mx-auto">
+            <Herosection/>
+          </section>
+        </div>
+      </section>
+    </>
+  );
+};
+
+export default HomePage;
