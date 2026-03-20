@@ -1,6 +1,6 @@
-import Herosection from "../components/Herosection";
+import HeroSection from "../components/Herosection";
 import NavBar from "../Layout/NavBar";
-import Sidebar from "../Layout/Sidebar";
+import SideBar from "../Layout/SideBar";
 
 
 const HomePage = () => {
@@ -8,15 +8,14 @@ const HomePage = () => {
     <>
       <section className="w-full h-screen flex">
         <div className="w-16 h-screen border-r border-r-gray-300">
-          <Sidebar />
+          <SideBar />
         </div>
 
-        <div className="w-full h-screen py-2">
+        <div className="w-full h-screen  py-3">
           <NavBar />
-
-          <section className="w-[60%] flex items-center justify-center mt-12 mx-auto">
-            <Herosection/>
-          </section>
+          <section className="px-10 flex items-center justify-center mt-12 mx-auto">
+         <HeroSection/>
+         </section>
         </div>
       </section>
     </>
