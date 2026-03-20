@@ -23,7 +23,7 @@ const HeroSection = () => {
           </div>
         </div>
         {/* card */}
-        <div className="border border-black/20 rounded-md p-4  flex items-center justify-center gap-20 w-1/2">
+        <div className="border border-black/20 rounded-md p-4 flex items-center justify-center gap-20 w-1/2 max-w-2xl">
         {/* text */}
         <div>
             
