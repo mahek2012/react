@@ -14,7 +14,7 @@ const HomePage = () => {
         <div className="w-full h-screen py-2">
           <NavBar />
 
-          <section className="w-[60%] flex items-center justify-center mt-50 mx-auto">
+          <section className="w-[60%] flex items-center justify-center mt-12 mx-auto">
             <Herosection/>
           </section>
         </div>

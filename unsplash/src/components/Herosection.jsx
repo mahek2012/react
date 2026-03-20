@@ -4,8 +4,9 @@ import { Focus, Search, Plus } from "lucide-react";
 const HeroSection = () => {
   return (
     <>
-      <section className="flex items-center justify-center gap-20">
-        <div>
+      <section  className="flex items-center justify-center gap-10 w-full">
+        {/* Intro */}
+        <div className="w-1/2">
           <h1 className="text-4xl font-bold py-2 ">Unsplash</h1>
           <p className="text-lg">
             The internet&apos;s source for visuals. <br /> Powered by creators
@@ -21,7 +22,8 @@ const HeroSection = () => {
             <Focus className="w-5  h-5 text-gray-600  " strokeWidth={2.5} />
           </div>
         </div>
-        <div className="border border-black/20 rounded-md p-4 flex items-center justify-center gap-20">
+        {/* card */}
+        <div className="border border-black/20 rounded-md p-4  flex items-center justify-center gap-20 w-1/2">
         {/* text */}
         <div>
             
@@ -40,7 +42,7 @@ const HeroSection = () => {
         </div>
         {/* image */}
         <div>
-           <div><img src="https://unsplash-assets.imgix.net/modules/legal-protections/photo-1.jpg?w=192&dpr=1&h=257&auto=format&fit=crop&q=60" alt="" className="-rotate-6"/></div> 
+           <div><img src="https://unsplash-assets.imgix.net/modules/legal-protections/photo-1.jpg?w=192&dpr=1&h=257&auto=format&fit=crop&q=60" alt="img" className="-rotate-6"/></div> 
         </div>
         </div>
       </section>
